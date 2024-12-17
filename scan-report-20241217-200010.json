@@ -1,0 +1,42 @@
+{
+ "imageName": "ubuntu:latest",
+ "scanTime": "2024-12-17T20:00:07.4336328+05:30",
+ "totalPackages": 91,
+ "VulnerablePackages": 2,
+ "findings": [
+  {
+   "packageName": "apt",
+   "currentVersion": "2.7.14build2",
+   "vulnerabilities": [
+    {
+     "id": "CVE-2023-5678",
+     "package": "apt",
+     "version": "2.7.14",
+     "fixedIn": "2.7.15",
+     "severity": "MEDIUM",
+     "description": "Potential package verification bypass in apt",
+     "references": [
+      "https://cve.mitre.org/cve-2023-5678"
+     ]
+    }
+   ]
+  },
+  {
+   "packageName": "bash",
+   "currentVersion": "5.2.21-2ubuntu4",
+   "vulnerabilities": [
+    {
+     "id": "CVE-2023-9012",
+     "package": "apt",
+     "version": "5.2.21",
+     "fixedIn": "5.2.22",
+     "severity": "CRITICAL",
+     "description": "Command injection vulnerability in bash",
+     "references": [
+      "https://cve.mitre.org/cve-2023-9012"
+     ]
+    }
+   ]
+  }
+ ]
+}
